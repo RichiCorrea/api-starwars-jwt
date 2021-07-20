@@ -23,7 +23,6 @@ jwt = JWTManager(app)
 db.init_app(app)
 Migrate(app,db)
 
-
 #Ruta para login
 @app.route("/login", methods=["POST"])
 def login():
